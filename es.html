@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Lorem Ipsum</title>
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo">Hotel Lorem Ipsum</a>
+        <nav class="navbar">
+            <a href="#hotel">Hotel</a>
+            <a href="#rooms">Habitaciones</a>
+            <a href="#services">Restaurante</a>
+            <a href="#services">Reuniones</a>
+            <a href="#services">Bodas</a>
+            <a href="#offers">Ofertas</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+            <i class="fas fa-info" id="info-btn"></i>
+            <a href="index.html" class="fas fa-globe-americas translate" id="translate-btn">
+                <span>Eng</span>
+            </a>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="buscar aquí...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- login form container bar -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>iniciar sesión</h3>
+            <input type="email" class="box" placeholder="ingresa tu email">
+            <input type="password" class="box" placeholder="ingresa tu contraseña">
+            <input type="submit" value="Entrar ahora" class="btn">
+            <input type="checkbox" name="" id="remember">
+            <label for="remember">Recordarme</label>
+            <p>Olvidaste la contraseña? <a href="#">Click aquí</a></p>
+            <p>No tienes cuenta? <a href="#">Registrarse ahora</a></p>
+        </form>
+    </div>
+
+    <!-- Info container bar -->
+    <div class="info-container">
+        <i class="fas fa-times" id="info-close"></i>
+        <div class="container">
+            <h3>Información sobre el diseño</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ducimus eveniet nihil exercitationem,
+                pariatur modi commodi saepe sequi enim tenetur necessitatibus repudiandae autem facilis? Eum
+                exercitationem expedita aperiam tempore ea.
+                Mollitia delectus suscipit ullam fugit? Eaque pariatur ducimus quaerat natus. Aperiam minima dignissimos
+                veritatis adipisci officia ad quo doloribus quisquam fugiat quasi, vero distinctio dolorum tempora!
+                Ipsum sit minima architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae molestias nesciunt nam quos magni
+                repudiandae, nisi laborum porro earum aut, nostrum distinctio doloribus enim, fuga libero dolorum amet?
+                Labore.
+                Ipsa perferendis adipisci qui eligendi! Dicta hic modi repudiandae architecto quidem voluptate illo
+                voluptates voluptatem corporis magnam quibusdam quaerat culpa vel velit, inventore provident, reiciendis
+                nemo reprehenderit in blanditiis aperiam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ducimus eveniet nihil exercitationem,
+                pariatur modi commodi saepe sequi enim tenetur necessitatibus repudiandae autem facilis? Eum
+                exercitationem expedita aperiam tempore ea.
+                Mollitia delectus suscipit ullam fugit? Eaque pariatur ducimus quaerat natus. Aperiam minima dignissimos
+                veritatis adipisci officia ad quo doloribus quisquam fugiat quasi, vero distinctio dolorum tempora!
+                Ipsum sit minima architecto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae molestias nesciunt nam quos magni
+                repudiandae, nisi laborum porro earum aut, nostrum distinctio doloribus enim, fuga libero dolorum amet?
+                Labore.
+                Ipsa perferendis adipisci qui eligendi! Dicta hic modi repudiandae architecto quidem voluptate illo
+                voluptates voluptatem corporis magnam quibusdam quaerat culpa vel velit, inventore provident, reiciendis
+                nemo reprehenderit in blanditiis aperiam!</p>
+        </div>
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h1 class="title">Hotel Magnífico</h1>
+            <p class="title-p">Resort & Spa</p>
+            <a href="#book" class="btn">Reservar Ahora</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid3.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <!-- book section starts -->
+    <section class="book" id="book">
+        <div class="row">
+            <form action="/">
+                <div class="inputBox">
+                    <h3>Habitaciones</h3>
+                    <input type="number" placeholder="Número de habitaciones">
+                </div>
+                <div class="inputBox">
+                    <h3>Huéspedes</h3>
+                    <input type="number" placeholder="Número de huespedes">
+                </div>
+                <div class="inputBox">
+                    <h3>Check in</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Check out</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Reservar Ahora">
+            </form>
+        </div>
+    </section>
+
+    <div class="space" id="hotel"></div>
+
+    <!-- Intro section -->
+    <section id="section-intro">
+        <div class="intro">
+            <h1 class="title"> Hotel Magnífico</h1>
+            <p class="title-p">Resort & Spa</p>
+            <span>
+                CANCÚN - RIVIERA MAYA - LOS CABOS - VALLARTA
+            </span>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta animi
+                voluptatibus assumenda eum veniam fugit odit laboriosam fuga sed! Ea ut perspiciatis hic deserunt quos
+                maiores non impedit nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minima
+                voluptatibus harum itaque quia dignissimos doloribus ex officia odit neque, velit veniam aut excepturi,
+                facere beatae quis omnis aliquam quisquam.</p>
+        </div>
+        <a href="#" class="btn">Descubre Más</a>
+    </section>
+
+    <div class="space" id="rooms"></div>
+
+    <!-- Services Section - ROOMS-->
+    <section id="section-services">
+        <div>
+            <h2 class="subtitle">Habitaciones</h2>
+        </div>
+        <div class="acomodations">
+            <div class="acomodations-text">
+                <h3>Habitaciones</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat provident enim beatae,
+                    fugiat sint iure quaerat delectus corrupti autem? Iste, hic deleniti sed blanditiis quam illum vero
+                    maxime vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit corporis
+                    quos. Fugit, laborum minus. Deleniti assumenda tempore ullam placeat, possimus eius molestiae vel
+                    ratione veritatis maiores nemo quisquam rerum.
+                </p>
+            </div>
+            <div class="acomodations-img">
+                <img src="images/12.0.jpg" alt="acomodation image">
+            </div>
+        </div>
+    </section>
+
+    <div class="division">
+        <span></span>
+    </div>
+
+    <!-- gallery section starts -->
+    <section class="gallery">
+        <div class="box-container">
+            <div class="box">
+                <img src="images/12.jpg" alt="">
+                <div class="content">
+                    <h3>Suites</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/10.jpg" alt="">
+                <div class="content">
+                    <h3>Doble</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/9.jpg" alt="">
+                <div class="content">
+                    <h3>Individual</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="space" id="services"></div>
+
+    <!-- Services Section - EXPERIENCES -->
+    <section id="section-services">
+        <div>
+            <h2 class="subtitle">Amenidades</h2>
+        </div>
+        <div class="dining">
+            <div class="dining-img">
+                <div class="first">
+                    <img src="images/dining_0.1.jpg" alt="dining image">
+                </div>
+                <div class="midle">
+                    <img src="images/services/s-3.jpg" alt="dining image">
+                </div>
+                <div class="last">
+                    <img src="images/services/s-2.jpg" alt="dining image">
+                </div>
+            </div>
+            <div class="dining-text">
+                <h3>Nuestros servicios</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sint repudiandae ullam
+                    voluptates dolore eos fugit quasi odit pariatur vel quos et harum id quaerat dolores? Nisi dolorum
+                    voluptates eligendi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                    exercitationem neque enim repudiandae dignissimos. Soluta nostrum ducimus, provident, deserunt
+                    labore nihil tempore ea non itaque facilis recusandae accusamus repellat? A.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="space"></div>
+
+
+    <div class="division">
+        <span></span>
+    </div>
+
+    <section class="gallery">
+        <div class="box-container">
+            <div class="box">
+                <img src="images/services/1-dining.jpg" alt="">
+                <div class="content">
+                    <h3>Restaurante</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/services/2-mettings.jpg" alt="">
+                <div class="content">
+                    <h3>Reuniones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/services/3-wedding.JPG" alt="">
+                <div class="content">
+                    <h3>Bodas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="space" id="offers"></div>
+
+    <!-- Section Offers -->
+    <section class="offers" id="packages">
+        <div>
+            <h2 class="subtitle">Ofertas</h2>
+        </div>
+        <div class="offers-text">
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, beatae id ea cum error
+                nostrum, aut saepe tempora reiciendis laborum consequatur alias nihil illo, perspiciatis magni minima
+                aliquam consequuntur
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque non ab dolorem ut commodi amet sint
+                voluptates id tempora quaerat quia sapiente doloremque nesciunt, maiores nemo dignissimos, iure modi.
+                Repudiandae!
+            </p>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/offers/o-1.jpg" alt="">
+                <div class="content">
+                    <h3>Hotel + Avión</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem Cancún Resort</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">53% Descuento</div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/offers/o-2.jpg" alt="">
+                <div class="content">
+                    <h3>Hasta 50% DTO. + Desayuno incluido</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem Resort & Spa Vallarta</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $3,202 MXN <span>habitación / noche</span></div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/offers/o-3.jpg" alt="">
+                <div class="content">
+                    <h3>HASTA 50% DTO + Desaunos para todos</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem Cancún Resort all suites</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 3,613 MXN <span>habitación / noche</span></div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/offers/o-4.jpg" alt="">
+                <div class="content">
+                    <h3>¡El Verano ya llegó! - TODO INCLUIDO</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem los Cabos</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $4,178 MXN <span class="line-through">$9,083 MXN </span><span>habitación / noche</span></div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/offers/o-5.jpg" alt="">
+                <div class="content">
+                    <h3>¡El Verano ya llegó! - TODO INCLUIDO</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem Resort & Spa Riviera Maya</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$6,474 MXN <span>habitación / noche</span></div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/offers/o-6.jpg" alt="">
+                <div class="content">
+                    <h3>VENTA FLASH HASTA 53% DTO</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem</p>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lorem Cancún Resort</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$2,498 MXN <span class="line-through">$4,714 MXN</span></div>
+                    <a href="/" class="btn">Reservar ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section starts -->
+    <section class="services">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-swimmer"></i>
+                <h3>Albercas</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Restaurante</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Salud y ejercicio</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-volleyball-ball"></i>
+                <h3>Deportes</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hot-tub"></i>
+                <h3>Spa</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-wifi"></i>
+                <h3>Otros servicios</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit autem architecto nihil dolore
+                    consectetur exercitationem doloremque tenetur fuga eligendi</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Welcome section -->
+    <section id="section-welcome">
+        <div class="welcome-container">
+            <div class="welcome">
+                <h4>Nos gustaría darle la bienvenida a nuestra experiencia personalizada y agradecerle su fidelidad
+                    premiándole con las mejores ventajas al reservar directamente con nosotros.</h4>
+                <div class="division division-small">
+                    <span></span>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et est ad labore blanditiis
+                    tempore
+                    similique temporibus facilis exercitationem odio a consectetur, praesentium recusandae sit iste
+                    repellat enim possimus deleniti aut?</p>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam repellat
+                    eius! Deserunt
+                    nesciunt porro autem consequatur suscipit explicabo labore excepturi distinctio mollitia officia
+                    non, quidem omnis dolorem veniam quae.
+                    Neque obcaecati amet accusantium fugiat quisquam. Praesentium aspernatur nisi eligendi dicta
+                    expedita harum distinctio tempora illum fugiat, quam soluta doloremque sequi debitis ea,
+                    necessitatibus laborum. Officia earum consequatur ullam nobis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Sobre nosotros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit eligendi adipisci
+                    voluptatum quam? Eius incidunt amet quod totam, porro deserunt doloremque quam esse, itaque
+                    temporibus eos maxime, debitis iste!</p>
+            </div>
+            <div class="box">
+                <h3>Locaciones</h3>
+                <div><a href="#">Cancún</a></div>
+                <div><a href="#">Riviera Maya</a></div>
+                <div><a href="#">Los Cabos</a></div>
+                <div><a href="#">Vallarta</a></div>
+            </div>
+            <div class="box">
+                <h3>Enlaces rápidos</h3>
+                <div><a href="#hotel">Hotel</a></div>
+                <div><a href="#rooms">Habitaciones</a></div>
+                <div><a href="#services">Restaurante</a></div>
+                <div><a href="#services">Reuniones</a></div>
+                <div><a href="#services">Bodas</a></div>
+                <div><a href="#offers">Ofertas</a></div>
+                <div><a href="contact.html">Contacto</a></div>
+            </div>
+            <div class="box">
+                <h3>Síguenos en</h3>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a> 
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a> 
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a> 
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a> 
+                </div>
+            </div>
+        </div>
+        <h1 class="credit">Todos los derechos reservados | creado por<span> MIJAIL NAAL</span></h1>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
